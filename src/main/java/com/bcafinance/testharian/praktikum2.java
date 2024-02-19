@@ -14,9 +14,9 @@ public class praktikum2 {
     public static void main(String[] args) {
         double input = 0;
         int total = 0;
-        Scanner scn = new Scanner(System.in);
 
         try{
+            Scanner scn = new Scanner(System.in);
             while(true){
                 input += scn.nextInt();
                 total += 1;
